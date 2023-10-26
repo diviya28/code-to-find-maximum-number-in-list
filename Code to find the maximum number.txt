@@ -1,0 +1,8 @@
+Code to find the maximum number in a list:
+
+a_list=[6,4,3,7,8,2,5,9]
+max=a_list[0]
+for i in a_list:
+    if i >= max:
+        max=i
+print("The maximum number :",max)
